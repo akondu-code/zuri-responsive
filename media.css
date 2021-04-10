@@ -1,0 +1,41 @@
+@media (max-width: 718px) {
+
+div.nav-bar {
+    /* padding-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    padding: 1rem 2rem;
+}
+
+#media-nav {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.nav-links {
+    display: none !important;
+}
+.nav-bar i {
+    display: block;
+
+}
+
+div.hero-section {
+    padding: 6rem;
+}
+}
+
+@media (max-width: 456px) {
+div.hero-section {
+padding: 3rem;
+}
+}
+
+@media (max-width: 1418px) {
+    div.hero-background  {
+    padding: 8rem;
+    }
+}
+
