@@ -27,15 +27,138 @@ div.hero-section {
 }
 }
 
+@media (max-width: 462px) {
+    div.background {
+     padding: 10px 20px;
+    }
+    
+div.hero-background-pos {
+    width: 100px;
+    height: 100px;
+ }
+}
+
 @media (max-width: 456px) {
 div.hero-section {
 padding: 3rem;
 }
 }
 
-@media (max-width: 1418px) {
-    div.hero-background  {
-    padding: 8rem;
-    }
+@media (max-width: 740px) {
+   div.background {
+    height: 250px;
+   }
+   div.hero-background-pos {
+    width: 120px;
+    height: 120px;
+ }
 }
 
+
+@media (max-width: 666px) {
+    div.background {
+     height: 300px;
+    }
+ }
+
+ 
+@media (max-width: 612px) {
+    div.background {
+     height: 350px;
+    }
+ }
+
+
+ 
+@media (max-width: 426px) {
+    div.background {
+     padding: 15px 20px;
+    }
+ }
+
+ @media (max-width: 821px) {
+    div.box1 {
+        padding: 10px 20px;
+        width: 200px;
+        height: 210px;
+        margin: 10px;
+    }
+    
+    div.box3 {
+        background: #304353;
+        padding: 10px 20px;
+        width: 200px;
+        height: 210px;
+        margin: 10px;
+    }
+ }
+
+ @media (max-width: 697px) {
+    div.box1 {
+        padding: 7.5px 15px;
+        width: 180px;
+        height: 190px;
+        margin: 10px;
+    }
+    
+    div.box3 {
+        background: #304353;
+        padding: 7.5px 15px;
+        width: 180px;
+        height: 190px;
+        margin: 10px;
+    }
+ }
+
+
+ @media (max-width: 625px) {
+    div.box1 {
+        padding: 7.5px 15px;
+        width: 180px;
+        height: 187px;
+        margin: 10px;
+    }
+    
+    div.box3 {
+        background: #304353;
+        padding: 7.5px 15px;
+        width: 180px;
+        height: 187px;
+        margin: 10px;
+    }
+ }
+
+ @media (max-width: 605px) {
+     h5 {
+         padding-top: 1.5rem;
+     }
+ }
+
+ 
+ @media (max-width: 595px) {
+    
+div.snapshot-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media (max-width: 670px) {
+    div.footer-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+    input {
+        width: 80% !important;
+        margin-top: 10px;
+    }
+    textarea {
+        width: 80%;
+    }
+}

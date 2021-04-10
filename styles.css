@@ -372,7 +372,7 @@ overflow: hidden;
 
 .close {
     width: 100%;
-    margin-bottom: 3rem;
+     margin-bottom: 3rem; 
 }
 
 #media-nav ul {
@@ -391,8 +391,7 @@ flex-direction: column;
 }
   
 #media-nav.show-menu {
-    transform: translateX(0);
-    
+    transform: translateX(0);   
   } 
 
   #media-nav i {
